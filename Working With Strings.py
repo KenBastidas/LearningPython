@@ -1,0 +1,17 @@
+#Working With Strings
+print("GOA Academy")
+print("GOA\nAcademy")
+print("GOA\"Academy")
+phrase = "GOA Academy"
+print(phrase)
+print(phrase + " is cool")
+print(phrase.lower())
+print(phrase.upper())
+print(phrase.upper().isupper())
+print(len(phrase))
+print(phrase[0])
+print(phrase[3])
+print(phrase.index("G"))
+print(phrase.index("a"))
+print(phrase.index("Acad"))
+print(phrase.replace("GOA", "ANACONDA"))
